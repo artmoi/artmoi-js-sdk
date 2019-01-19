@@ -7,6 +7,8 @@ export { EditableType, Editable } from "./Schema/Editable";
 export { File, fileSchema } from "./Schema/File";
 export { Medium, mediumSchema } from "./Schema/Medium";
 
+export { artmoiOauthConfiguration, artmoiApiConfiguration } from "./ArtMoiApiConfiguration"
+
 // note: If you're using protoculture, these will help you with configuring the API.
 export { ArtMoiApiVariables } from "./ArtMoiApiVariables";
 export { artmoiSymbols } from "./ArtMoiSymbols";
