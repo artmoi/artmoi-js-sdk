@@ -1,4 +1,3 @@
-import "./Extension/ServiceProvider";
 import _ from "lodash";
 import { ServiceProvider } from "protoculture";
 import { artmoiOauthConfiguration, artmoiApiConfiguration } from "./ArtMoiApiConfiguration";
