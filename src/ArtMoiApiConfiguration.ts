@@ -37,17 +37,17 @@ export const artmoiApiConfiguration = {
         "identity": {
             name: "identity",
             method: Method.GET,
-            path: "/identity",
+            path: "identity",
         },
         "geography.get": {
             name: "geography.get",
             method: Method.GET,
-            path: "/geography",
+            path: "geography",
         },
         "billing-profile.update": {
             name: "billing-profile.update",
             method: Method.PUT,
-            path: "/billing-profile/{id}",
+            path: "billing-profile/{id}",
             parameters: [
                 "id",
             ],
@@ -55,17 +55,17 @@ export const artmoiApiConfiguration = {
         "billing-profile.sync-addons-to-stripe": {
             name: "billing-profile.sync-addons-to-stripe",
             method: Method.POST,
-            path: "/billing-profile/sync-addons-to-stripe",
+            path: "billing-profile/sync-addons-to-stripe",
         },
         "session.store": {
             name: "session.store",
             method: Method.POST,
-            path: "/login",
+            path: "login",
         },
         "token.create.implicit": {
             name: "token.create.implicit",
             method: Method.GET,
-            path: "/oauth/authorize",
+            path: "oauth/authorize",
             data: {
                 "response_type": "token",
             },
@@ -73,12 +73,12 @@ export const artmoiApiConfiguration = {
         "creation.list": {
             name: "creation.list",
             method: Method.GET,
-            path: "/creation",
+            path: "creation",
         },
         "creation.files.store": {
             name: "creation.files.store",
             method: Method.POST,
-            path: "/creation/{id}/files",
+            path: "creation/{id}/files",
             parameters: [
                 "id",
             ],
@@ -86,7 +86,7 @@ export const artmoiApiConfiguration = {
         "creation.images.index": {
             name: "creation.images.index",
             method: Method.GET,
-            path: "/creation/{id}/images",
+            path: "creation/{id}/images",
             parameters: [
                 "id",
             ],
@@ -94,7 +94,7 @@ export const artmoiApiConfiguration = {
         "creation.images.store": {
             name: "creation.images.store",
             method: Method.PUT,
-            path: "/creation/{id}/images",
+            path: "creation/{id}/images",
             parameters: [
                 "id",
             ],
@@ -102,7 +102,7 @@ export const artmoiApiConfiguration = {
         "collection.files.store": {
             name: "collection.files.store",
             method: Method.POST,
-            path: "/collection/{id}/files",
+            path: "collection/{id}/files",
             parameters: [
                 "id",
             ],
@@ -110,7 +110,7 @@ export const artmoiApiConfiguration = {
         "creator.files.store": {
             name: "creator.files.store",
             method: Method.POST,
-            path: "/creator/{id}/files",
+            path: "creator/{id}/files",
             parameters: [
                 "id",
             ],
@@ -118,17 +118,17 @@ export const artmoiApiConfiguration = {
         "file.create-multipart-upload": {
             name: "file.create-multipart-upload",
             method: Method.POST,
-            path: "/file/create-multipart-upload",
+            path: "file/create-multipart-upload",
         },
         "file.store-multipart-upload": {
             name: "file.store-multipart-upload",
             method: Method.POST,
-            path: "/file/store-multipart-upload",
+            path: "file/store-multipart-upload",
         },
         "file.download": {
             name: "file.download",
             method: Method.GET,
-            path: "/file/{id_hash}/download",
+            path: "file/{id_hash}/download",
             parameters: [
                 "id_hash",
             ],
@@ -136,17 +136,17 @@ export const artmoiApiConfiguration = {
         "file.index": {
             name: "file.index",
             method: Method.GET,
-            path: "/file",
+            path: "file",
         },
         "file.store": {
             name: "file.store",
             method: Method.POST,
-            path: "/file",
+            path: "file",
         },
         "file.update": {
             name: "file.update",
             method: Method.PUT,
-            path: "/file/{id_hash}",
+            path: "file/{id_hash}",
             parameters: [
                 "id_hash",
             ],
@@ -154,7 +154,7 @@ export const artmoiApiConfiguration = {
         "file.destroy": {
             name: "file.destroy",
             method: Method.DELETE,
-            path: "/file/{id_hash}",
+            path: "file/{id_hash}",
             parameters: [
                 "id_hash",
             ],
@@ -162,22 +162,22 @@ export const artmoiApiConfiguration = {
         "files.bulk-destroy": {
             name: "files.bulk-destroy",
             method: Method.DELETE,
-            path: "/file",
+            path: "file",
         },
         "file.usage": {
             name: "file.usage",
             method: Method.GET,
-            path: "/file/usage",
+            path: "file/usage",
         },
         "file.mime-types": {
             name: "file.mime-types",
             method: Method.GET,
-            path: "/file/mime-types",
+            path: "file/mime-types",
         },
         "creation.files.index": {
             name: "creation.files.index",
             method: Method.GET,
-            path: "/creation/{id}/files",
+            path: "creation/{id}/files",
             parameters: [
                 "id",
             ],
@@ -185,7 +185,7 @@ export const artmoiApiConfiguration = {
         "collection.files.index": {
             name: "collection.files.index",
             method: Method.GET,
-            path: "/collection/{id}/files",
+            path: "collection/{id}/files",
             parameters: [
                 "id",
             ],
@@ -193,7 +193,7 @@ export const artmoiApiConfiguration = {
         "creator.files.index": {
             name: "creator.files.index",
             method: Method.GET,
-            path: "/creator/{id}/files",
+            path: "creator/{id}/files",
             parameters: [
                 "id",
             ],
@@ -201,7 +201,7 @@ export const artmoiApiConfiguration = {
         "creation.files.destroy": {
             name: "creation.files.destroy",
             method: Method.DELETE,
-            path: "/creation/{creationId}/files/{fileId}",
+            path: "creation/{creationId}/files/{fileId}",
             parameters: [
                 "creationId",
                 "fileId",
@@ -210,7 +210,7 @@ export const artmoiApiConfiguration = {
         "collection.files.destroy": {
             name: "collection.files.destroy",
             method: Method.DELETE,
-            path: "/collection/{collectionId}/files/{fileId}",
+            path: "collection/{collectionId}/files/{fileId}",
             parameters: [
                 "collectionId",
                 "fileId",
@@ -219,7 +219,7 @@ export const artmoiApiConfiguration = {
         "creator.files.destroy": {
             name: "creator.files.destroy",
             method: Method.DELETE,
-            path: "/creator/{creatorId}/files/{fileId}",
+            path: "creator/{creatorId}/files/{fileId}",
             parameters: [
                 "creatorId",
                 "fileId",
@@ -228,17 +228,17 @@ export const artmoiApiConfiguration = {
         "creation.files.bulk-destroy": {
             name: "creation.files.bulk-destroy",
             method: Method.DELETE,
-            path: "/creation/files",
+            path: "creation/files",
         },
         "collection.files.bulk-destroy": {
             name: "collection.files.bulk-destroy",
             method: Method.DELETE,
-            path: "/collection/files",
+            path: "collection/files",
         },
         "creator.files.bulk-destroy": {
             name: "creator.files.bulk-destroy",
             method: Method.DELETE,
-            path: "/creator/files",
+            path: "creator/files",
         },
         "s3.create-upload": {
             name: "s3.create-upload",
