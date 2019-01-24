@@ -52,6 +52,11 @@ export const artmoiApiConfiguration = {
                 "id",
             ],
         },
+        "billing-profile.remove-all-payment-sources": {
+            name: "billing-profile.remove-all-payment-sources",
+            method: Method.POST,
+            path: "billing-profile/remove-all-payment-sources",
+        },
         "billing-profile.sync-addons-to-stripe": {
             name: "billing-profile.sync-addons-to-stripe",
             method: Method.POST,
