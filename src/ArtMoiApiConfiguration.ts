@@ -120,6 +120,38 @@ export const artmoiApiConfiguration = {
                 "id",
             ],
         },
+        "creator.profile-images.store": {
+            name: "creator.profile-images.store",
+            method: Method.PUT,
+            path: "creator/{id}/profile-images",
+            parameters: [
+                "id",
+            ],
+        },
+        "creator.profile-images.destroy": {
+            name: "creator.profile-images.destroy",
+            method: Method.DELETE,
+            path: "creator/{id}/profile-images",
+            parameters: [
+                "id",
+            ],
+        },
+        "user.profile-images.store": {
+            name: "user.profile-images.store",
+            method: Method.PUT,
+            path: "user/{id}/profile-images",
+            parameters: [
+                "id",
+            ],
+        },
+        "user.profile-images.destroy": {
+            name: "user.profile-images.destroy",
+            method: Method.DELETE,
+            path: "user/{id}/profile-images",
+            parameters: [
+                "id",
+            ],
+        },
         "file.create-multipart-upload": {
             name: "file.create-multipart-upload",
             method: Method.POST,
