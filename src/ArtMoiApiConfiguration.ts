@@ -152,6 +152,30 @@ export const artmoiApiConfiguration = {
                 "id",
             ],
         },
+        "organization.update": {
+            name: "organization.update",
+            method: Method.PUT,
+            path: "organization/{id}",
+            parameters: [
+                "id",
+            ],
+        },
+        "organization.watermark-images.store": {
+            name: "organization.watermark-images.store",
+            method: Method.PUT,
+            path: "organization/{id}/watermark-images",
+            parameters: [
+                "id",
+            ],
+        },
+        "organization.watermark-images.destroy": {
+            name: "user.watermark-images.destroy",
+            method: Method.DELETE,
+            path: "organization/{id}/watermark-images",
+            parameters: [
+                "id",
+            ],
+        },
         "file.create-multipart-upload": {
             name: "file.create-multipart-upload",
             method: Method.POST,
