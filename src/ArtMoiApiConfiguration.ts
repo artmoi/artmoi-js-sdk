@@ -186,6 +186,14 @@ export const artmoiApiConfiguration = {
             method: Method.POST,
             path: "file/store-multipart-upload",
         },
+        "file.download-uri": {
+            name: "file.download-uri",
+            method: Method.GET,
+            path: "file/{id_hash}/download-uri",
+            parameters: [
+                "id_hash",
+            ],
+        },
         "file.download": {
             name: "file.download",
             method: Method.GET,
