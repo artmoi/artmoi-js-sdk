@@ -104,6 +104,11 @@ export const artmoiApiConfiguration = {
                 "id",
             ],
         },
+        "creation.simple-import": {
+            name: "creation.simple-import",
+            method: Method.POST,
+            path: "creation/simple-import",
+        },
         "collection.files.store": {
             name: "collection.files.store",
             method: Method.POST,
