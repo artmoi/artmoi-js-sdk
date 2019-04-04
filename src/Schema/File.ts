@@ -5,6 +5,4 @@ export interface File {
     id: string | number;
 }
 
-export const fileSchema = Yup.object({
-    
-});
+export const fileSchema = Yup.mixed();
