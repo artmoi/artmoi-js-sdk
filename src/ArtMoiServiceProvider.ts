@@ -23,7 +23,7 @@ export class ArtMoiServiceProvider extends ServiceProvider {
             return {
                 "oauth": {
                     axiosConfiguration: {
-                        baseURL: variables.ARTMOI_API_BASE_URI,
+                        baseURL: `${variables.ARTMOI_API_BASE_URI}/oauth`,
                         data: {
                             "client_id": variables.ARTMOI_API_CLIENT_ID,
                             "client_secret": variables.ARTMOI_API_CLIENT_SECRET,
