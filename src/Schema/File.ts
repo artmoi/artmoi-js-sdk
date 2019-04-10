@@ -6,5 +6,5 @@ export interface File {
 }
 
 export const fileSchema = Yup.object({
-    
+    name: Yup.string(),
 });
