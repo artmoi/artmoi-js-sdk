@@ -13,4 +13,5 @@ export enum Feature {
     AdvancedEditions = 11,
     Watermark = 12,
     LargeImports = 13,
+    Appraiser = 14,
 }
