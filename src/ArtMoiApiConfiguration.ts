@@ -141,6 +141,11 @@ export const artmoiApiConfiguration = {
                 "id",
             ],
         },
+        "sign-up": {
+            name: "sign-up",
+            method: Method.POST,
+            path: "user",
+        },
         "user.profile-images.store": {
             name: "user.profile-images.store",
             method: Method.PUT,
@@ -174,7 +179,7 @@ export const artmoiApiConfiguration = {
             ],
         },
         "organization.watermark-images.destroy": {
-            name: "user.watermark-images.destroy",
+            name: "organization.watermark-images.destroy",
             method: Method.DELETE,
             path: "organization/{id}/watermark-images",
             parameters: [
