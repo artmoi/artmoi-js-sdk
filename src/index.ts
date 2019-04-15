@@ -4,6 +4,7 @@ export { Creation, creationSchema } from "./Schema/Creation";
 export { Creator, creatorSchema } from "./Schema/Creator";
 export { Dimensions, dimensionsSchema } from "./Schema/Dimensions";
 export { EditableType, Editable } from "./Schema/Editable";
+export { Feature } from "./Schema/Feature";
 export { File, fileSchema } from "./Schema/File";
 export { Medium, mediumSchema } from "./Schema/Medium";
 
