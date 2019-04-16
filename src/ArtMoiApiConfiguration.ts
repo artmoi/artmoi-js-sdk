@@ -38,6 +38,7 @@ export const artmoiApiConfiguration = {
             name: "identity",
             method: Method.GET,
             path: "identity",
+            authorizationType: "oauth2",
         },
         "geography.get": {
             name: "geography.get",
