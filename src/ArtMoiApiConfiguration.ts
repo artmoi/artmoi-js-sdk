@@ -33,7 +33,11 @@ export const artmoiOauthConfiguration = {
 
 export const artmoiApiConfiguration = {
     routes: {
-
+        "magic-token.store": {
+            name: "magic-token.store",
+            method: Method.POST,
+            path: "magic-token",
+        },
         "identity": {
             name: "identity",
             method: Method.GET,
@@ -67,14 +71,6 @@ export const artmoiApiConfiguration = {
             name: "session.store",
             method: Method.POST,
             path: "login",
-        },
-        "token.create.implicit": {
-            name: "token.create.implicit",
-            method: Method.GET,
-            path: "oauth/authorize",
-            data: {
-                "response_type": "token",
-            },
         },
         "creation.list": {
             name: "creation.list",
