@@ -28,6 +28,30 @@ export const artmoiOauthConfiguration = {
                 "grant_type": "password",
             },
         },
+        "magic-token-grant": {
+            name: "magic-token-grant",
+            method: Method.POST,
+            path: "token",
+            data: {
+                "grant_type": "magic-token",
+            },
+        },
+        "facebook-grant": {
+            name: "facebook-grant",
+            method: Method.POST,
+            path: "token",
+            data: {
+                "grant_type": "facebook",
+            },
+        },
+        "google-grant": {
+            name: "google-grant",
+            method: Method.POST,
+            path: "token",
+            data: {
+                "grant_type": "google",
+            },
+        },
     },
 };
 
