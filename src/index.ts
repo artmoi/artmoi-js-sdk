@@ -5,8 +5,10 @@ export { Creator, creatorSchema } from "./Schema/Creator";
 export { Dimensions, dimensionsSchema, Unit, Dimension } from "./Schema/Dimensions";
 export { EditableType, Editable } from "./Schema/Editable";
 export { Feature } from "./Schema/Feature";
+export { OrganizationRole } from "./Schema/OrganizationRole";
 export { File, fileSchema } from "./Schema/File";
 export { Medium, mediumSchema } from "./Schema/Medium";
+export { Identity } from "./Schema/Identity";
 
 export { artmoiOauthConfiguration, artmoiApiConfiguration } from "./ArtMoiApiConfiguration"
 
