@@ -1,4 +1,4 @@
-import { Method, ApiConnection, ConnectionConfiguration, ServerRoute } from "protoculture";
+import { Method, ApiConnection, ConnectionConfiguration } from "protoculture";
 
 
 declare module "protoculture/lib/Data/ApiConnections" {
@@ -10,11 +10,14 @@ declare module "protoculture/lib/Data/ApiConnections" {
     }
 }
 
+// import { Identity } from "./Schema/Identity";
+
+// todo: Can't wait to figure this out properly.
 // declare module "protoculture/lib/Data/ApiConnection" {
 
 //     export interface ApiConnection<Configuration extends ConnectionConfiguration<any>> {
 
-//         // todo: Overloading the call method is one way to get the response type in there.
+//         call<Identity>(name: "identity", extraConfiguration?: never): Promise<Identity>;
 //     }
 // }
 
