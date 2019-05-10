@@ -165,6 +165,16 @@ export const artmoiApiConfiguration = {
                 "id",
             ],
         },
+        "catalogue.index": {
+            name: "catalogue.index",
+            method: Method.GET,
+            path: "catalogue",
+        },
+        "catalogue.store": {
+            name: "catalogue.store",
+            method: Method.POST,
+            path: "catalogue",
+        },
         "sign-up": {
             name: "sign-up",
             method: Method.POST,
