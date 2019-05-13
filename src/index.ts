@@ -9,6 +9,7 @@ export { OrganizationRole } from "./Schema/OrganizationRole";
 export { File, fileSchema } from "./Schema/File";
 export { Medium, mediumSchema } from "./Schema/Medium";
 export { Identity } from "./Schema/Identity";
+export { TagType, Tag, Catalogue } from "./Schema/Tag";
 
 export { artmoiOauthConfiguration, artmoiApiConfiguration } from "./ArtMoiApiConfiguration"
 
