@@ -83,16 +83,19 @@ export const artmoiApiConfiguration = {
             parameters: [
                 "id",
             ],
+            authorizationType: "oauth2",
         },
         "billing-profile.remove-all-payment-sources": {
             name: "billing-profile.remove-all-payment-sources",
             method: Method.POST,
             path: "billing-profile/remove-all-payment-sources",
+            authorizationType: "oauth2",
         },
         "billing-profile.sync-addons-to-stripe": {
             name: "billing-profile.sync-addons-to-stripe",
             method: Method.POST,
             path: "billing-profile/sync-addons-to-stripe",
+            authorizationType: "oauth2",
         },
         "session.store": {
             name: "session.store",
@@ -103,6 +106,7 @@ export const artmoiApiConfiguration = {
             name: "creation.list",
             method: Method.GET,
             path: "creation",
+            authorizationType: "oauth2",
         },
         "creation.files.store": {
             name: "creation.files.store",
@@ -111,6 +115,7 @@ export const artmoiApiConfiguration = {
             parameters: [
                 "id",
             ],
+            authorizationType: "oauth2",
         },
         "creation.images.index": {
             name: "creation.images.index",
@@ -119,6 +124,7 @@ export const artmoiApiConfiguration = {
             parameters: [
                 "id",
             ],
+            authorizationType: "oauth2",
         },
         "creation.images.store": {
             name: "creation.images.store",
@@ -127,11 +133,13 @@ export const artmoiApiConfiguration = {
             parameters: [
                 "id",
             ],
+            authorizationType: "oauth2",
         },
         "creation.simple-import": {
             name: "creation.simple-import",
             method: Method.POST,
             path: "creation/simple-import",
+            authorizationType: "oauth2",
         },
         "collection.files.store": {
             name: "collection.files.store",
@@ -140,6 +148,7 @@ export const artmoiApiConfiguration = {
             parameters: [
                 "id",
             ],
+            authorizationType: "oauth2",
         },
         "creator.files.store": {
             name: "creator.files.store",
@@ -148,6 +157,7 @@ export const artmoiApiConfiguration = {
             parameters: [
                 "id",
             ],
+            authorizationType: "oauth2",
         },
         "creator.profile-images.store": {
             name: "creator.profile-images.store",
@@ -156,6 +166,7 @@ export const artmoiApiConfiguration = {
             parameters: [
                 "id",
             ],
+            authorizationType: "oauth2",
         },
         "creator.profile-images.destroy": {
             name: "creator.profile-images.destroy",
@@ -164,6 +175,7 @@ export const artmoiApiConfiguration = {
             parameters: [
                 "id",
             ],
+            authorizationType: "oauth2",
         },
         "sign-up": {
             name: "sign-up",
@@ -177,6 +189,7 @@ export const artmoiApiConfiguration = {
             parameters: [
                 "id",
             ],
+            authorizationType: "oauth2",
         },
         "user.profile-images.destroy": {
             name: "user.profile-images.destroy",
@@ -185,6 +198,7 @@ export const artmoiApiConfiguration = {
             parameters: [
                 "id",
             ],
+            authorizationType: "oauth2",
         },
         "organization.update": {
             name: "organization.update",
@@ -193,6 +207,7 @@ export const artmoiApiConfiguration = {
             parameters: [
                 "id",
             ],
+            authorizationType: "oauth2",
         },
         "organization.watermark-images.store": {
             name: "organization.watermark-images.store",
@@ -201,6 +216,7 @@ export const artmoiApiConfiguration = {
             parameters: [
                 "id",
             ],
+            authorizationType: "oauth2",
         },
         "organization.watermark-images.destroy": {
             name: "organization.watermark-images.destroy",
@@ -209,16 +225,19 @@ export const artmoiApiConfiguration = {
             parameters: [
                 "id",
             ],
+            authorizationType: "oauth2",
         },
         "file.create-multipart-upload": {
             name: "file.create-multipart-upload",
             method: Method.POST,
             path: "file/create-multipart-upload",
+            authorizationType: "oauth2",
         },
         "file.store-multipart-upload": {
             name: "file.store-multipart-upload",
             method: Method.POST,
             path: "file/store-multipart-upload",
+            authorizationType: "oauth2",
         },
         "file.download-uri": {
             name: "file.download-uri",
@@ -227,6 +246,7 @@ export const artmoiApiConfiguration = {
             parameters: [
                 "id_hash",
             ],
+            authorizationType: "oauth2",
         },
         "file.download": {
             name: "file.download",
@@ -240,11 +260,13 @@ export const artmoiApiConfiguration = {
             name: "file.index",
             method: Method.GET,
             path: "file",
+            authorizationType: "oauth2",
         },
         "file.store": {
             name: "file.store",
             method: Method.POST,
             path: "file",
+            authorizationType: "oauth2",
         },
         "file.update": {
             name: "file.update",
@@ -253,6 +275,7 @@ export const artmoiApiConfiguration = {
             parameters: [
                 "id_hash",
             ],
+            authorizationType: "oauth2",
         },
         "file.destroy": {
             name: "file.destroy",
@@ -261,21 +284,25 @@ export const artmoiApiConfiguration = {
             parameters: [
                 "id_hash",
             ],
+            authorizationType: "oauth2",
         },
         "files.bulk-destroy": {
             name: "files.bulk-destroy",
             method: Method.DELETE,
             path: "file",
+            authorizationType: "oauth2",
         },
         "file.usage": {
             name: "file.usage",
             method: Method.GET,
             path: "file/usage",
+            authorizationType: "oauth2",
         },
         "file.mime-types": {
             name: "file.mime-types",
             method: Method.GET,
             path: "file/mime-types",
+            authorizationType: "oauth2",
         },
         "creation.files.index": {
             name: "creation.files.index",
@@ -284,6 +311,7 @@ export const artmoiApiConfiguration = {
             parameters: [
                 "id",
             ],
+            authorizationType: "oauth2",
         },
         "collection.files.index": {
             name: "collection.files.index",
@@ -292,6 +320,7 @@ export const artmoiApiConfiguration = {
             parameters: [
                 "id",
             ],
+            authorizationType: "oauth2",
         },
         "creator.files.index": {
             name: "creator.files.index",
@@ -300,6 +329,7 @@ export const artmoiApiConfiguration = {
             parameters: [
                 "id",
             ],
+            authorizationType: "oauth2",
         },
         "creation.files.destroy": {
             name: "creation.files.destroy",
@@ -309,6 +339,7 @@ export const artmoiApiConfiguration = {
                 "creationId",
                 "fileId",
             ],
+            authorizationType: "oauth2",
         },
         "collection.files.destroy": {
             name: "collection.files.destroy",
@@ -318,6 +349,7 @@ export const artmoiApiConfiguration = {
                 "collectionId",
                 "fileId",
             ],
+            authorizationType: "oauth2",
         },
         "creator.files.destroy": {
             name: "creator.files.destroy",
@@ -327,21 +359,25 @@ export const artmoiApiConfiguration = {
                 "creatorId",
                 "fileId",
             ],
+            authorizationType: "oauth2",
         },
         "creation.files.bulk-destroy": {
             name: "creation.files.bulk-destroy",
             method: Method.DELETE,
             path: "creation/files",
+            authorizationType: "oauth2",
         },
         "collection.files.bulk-destroy": {
             name: "collection.files.bulk-destroy",
             method: Method.DELETE,
             path: "collection/files",
+            authorizationType: "oauth2",
         },
         "creator.files.bulk-destroy": {
             name: "creator.files.bulk-destroy",
             method: Method.DELETE,
             path: "creator/files",
+            authorizationType: "oauth2",
         },
         "s3.create-upload": {
             name: "s3.create-upload",
