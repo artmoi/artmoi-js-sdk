@@ -60,21 +60,31 @@ export const artmoiOauthConfiguration = {
 
 export const artmoiApiConfiguration = {
     routes: {
+        "geography.get": {
+            name: "geography.get",
+            method: Method.GET,
+            path: "geography",
+        },
+        "sign-up": {
+            name: "sign-up",
+            method: Method.POST,
+            path: "user",
+        },
         "magic-token.store": {
             name: "magic-token.store",
             method: Method.POST,
             path: "magic-token",
+        },
+        "session.store": {
+            name: "session.store",
+            method: Method.POST,
+            path: "login",
         },
         "identity": {
             name: "identity",
             method: Method.GET,
             path: "identity",
             authorizationType: "oauth2",
-        },
-        "geography.get": {
-            name: "geography.get",
-            method: Method.GET,
-            path: "geography",
         },
         "billing-profile.update": {
             name: "billing-profile.update",
@@ -96,11 +106,6 @@ export const artmoiApiConfiguration = {
             method: Method.POST,
             path: "billing-profile/sync-addons-to-stripe",
             authorizationType: "oauth2",
-        },
-        "session.store": {
-            name: "session.store",
-            method: Method.POST,
-            path: "login",
         },
         "creation.list": {
             name: "creation.list",
@@ -181,16 +186,13 @@ export const artmoiApiConfiguration = {
             name: "catalogue.index",
             method: Method.GET,
             path: "catalogue",
+            authorizationType: "oauth2",
         },
         "catalogue.store": {
             name: "catalogue.store",
             method: Method.POST,
             path: "catalogue",
-        },
-        "sign-up": {
-            name: "sign-up",
-            method: Method.POST,
-            path: "user",
+            authorizationType: "oauth2",
         },
         "user.profile-images.store": {
             name: "user.profile-images.store",
