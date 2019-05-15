@@ -10,6 +10,7 @@ export { File, fileSchema } from "./Schema/File";
 export { Medium, mediumSchema } from "./Schema/Medium";
 export { Identity } from "./Schema/Identity";
 export { TagType, Tag, Catalogue } from "./Schema/Tag";
+export { Recent } from "./Schema/Dashboard";
 
 export { artmoiOauthConfiguration, artmoiApiConfiguration } from "./ArtMoiApiConfiguration"
 

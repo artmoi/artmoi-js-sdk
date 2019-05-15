@@ -86,6 +86,12 @@ export const artmoiApiConfiguration = {
             path: "identity",
             authorizationType: "oauth2",
         },
+        "dashboard.recent": {
+            name: "dashboard.recent",
+            method: Method.GET,
+            path: "dashboard/recent",
+            authorizationType: "oauth2",
+        },
         "billing-profile.update": {
             name: "billing-profile.update",
             method: Method.PUT,
