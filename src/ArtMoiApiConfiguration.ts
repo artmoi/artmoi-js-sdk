@@ -161,6 +161,18 @@ export const artmoiApiConfiguration = {
             ],
             authorizationType: "oauth2",
         },
+        "creator.index": {
+            name: "creator.index",
+            method: Method.GET,
+            path: "creator",
+            authorizationType: "oauth2",
+        },
+        "creator.store": {
+            name: "creator.store",
+            method: Method.POST,
+            path: "creator",
+            authorizationType: "oauth2",
+        },
         "creator.files.store": {
             name: "creator.files.store",
             method: Method.POST,
@@ -413,12 +425,6 @@ export const artmoiApiConfiguration = {
             name: "s3.store-multipart-upload",
             method: Method.POST,
             path: "file/store-multipart-upload",
-            authorizationType: "oauth2",
-        },
-        "creator.index": {
-            name: "creator.index",
-            method: Method.GET,
-            path: "creator",
             authorizationType: "oauth2",
         },
         "medium.index": {
