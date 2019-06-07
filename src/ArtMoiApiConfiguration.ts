@@ -113,6 +113,12 @@ export const artmoiApiConfiguration = {
             path: "billing-profile/sync-addons-to-stripe",
             authorizationType: "oauth2",
         },
+        "creation.filter.index": {
+            name: "creation.filter.index",
+            method: Method.GET,
+            path: "creation/filters",
+            authorizationType: "oauth2",
+        },
         "creation.list": {
             name: "creation.list",
             method: Method.GET,

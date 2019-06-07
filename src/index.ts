@@ -1,7 +1,7 @@
 // note: These are the core domain types returned by the ArtMoi API surface area.
 // note: Domain types in this library contain no behaviour and only define structure.
 export { Creation, creationSchema } from "./Schema/Creation";
-export { Creator, creatorSchema } from "./Schema/Creator";
+export { Creator, CreatorFile, creatorSchema } from "./Schema/Creator";
 export { Dimensions, dimensionsSchema, Unit, Dimension } from "./Schema/Dimensions";
 export { EditableType, Editable } from "./Schema/Editable";
 export { Feature } from "./Schema/Feature";
