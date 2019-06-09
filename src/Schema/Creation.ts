@@ -3,10 +3,17 @@ import { Editable } from "./Editable";
 import { Creator } from "./Creator";
 import { Dimensions, dimensionsSchema } from "./Dimensions";
 import { Medium, mediumSchema } from "./Medium";
+import { CustomField } from "./CustomField";
+import { Tag } from "./Tag";
 
 
-export interface Tag {
-    
+export interface CreationFilters {
+    dynamic_fields: {
+        "custom": CustomField[],
+    },
+    mediums: Medium[];
+    tags: Tag[];
+    locations: Location[];
 }
 
 export interface Creation extends Editable {
