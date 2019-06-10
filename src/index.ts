@@ -12,7 +12,7 @@ export { Medium, mediumSchema } from "./Schema/Medium";
 export { Identity } from "./Schema/Identity";
 export { TagType, Tag, Catalogue } from "./Schema/Tag";
 export { Recent } from "./Schema/Dashboard";
-export { CustomField } from "./Schema/CustomField";
+export { CustomField, CustomListField, CustomListFieldConfiguration } from "./Schema/CustomField";
 
 export { artmoiOauthConfiguration, artmoiApiConfiguration } from "./ArtMoiApiConfiguration"
 
