@@ -14,14 +14,14 @@ export interface CustomField {
     updated_at: string;
 }
 
+export interface CustomListFieldOption {
+    id: string | number;
+    value: string;
+    legacyId: string;
+}
+
 export interface CustomListFieldConfiguration {
-    "options": [
-        {
-            "id": string | number, 
-            "value": string, 
-            "legacyId": string,
-        },
-    ];
+    options: CustomListFieldOption[];
 }
 
 export interface CustomListField extends CustomField {
