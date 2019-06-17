@@ -14,6 +14,8 @@ export { TagType, Tag, Catalogue } from "./Schema/Tag";
 export { Recent } from "./Schema/Dashboard";
 export { CustomField, CustomListField, CustomListFieldConfiguration, CustomListFieldOption } from "./Schema/CustomField";
 
+export { Pagination } from "./Pagination";
+
 export { artmoiOauthConfiguration, artmoiApiConfiguration } from "./ArtMoiApiConfiguration"
 
 // note: If you're using protoculture, these will help you with configuring the API.

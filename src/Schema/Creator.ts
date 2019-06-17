@@ -34,6 +34,6 @@ export const creatorSchema = Yup.object({
 declare module "./Editable" {
 
     export enum EditableType {
-        Creator = 2,
+        Creator = "creator",
     }
 }
