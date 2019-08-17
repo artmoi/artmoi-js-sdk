@@ -1,6 +1,6 @@
 {
   "name": "@artmoi/artmoi-js-sdk",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "repository": "git@github.com:artmoi/artmoi-js-sdk.git",
